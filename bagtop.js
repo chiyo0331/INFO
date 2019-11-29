@@ -12,7 +12,7 @@ $(document).ready(function () {
             $("#btntop").fadeOut(1000)
         }
     });
-    $("# ").click(function (e) { 
+    $("#a").click(function (e) { 
         $("html,body").animate({scrollTop:0},500);
 
     });

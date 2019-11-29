@@ -1,13 +1,14 @@
 *{
     /* border: 1px solid rgb(223, 37, 37) !important; */
     box-sizing: border-box;
-    font-family: "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+    font-family: "Noto Sans TC","Noto Sans HK","Solway","微軟正黑體","sans-serif";
 }
+@import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
 
 
 h1 {
     color: #eeeeee;
-    font-family: "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
     font-size: 64px;
     font-weight: 450;
 }

@@ -4,6 +4,15 @@
     font-family: "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
 }
 
+.modal-header{
+    background: #061b30 ;
+}
+h5{
+    color: #eeeeee;
+}
+span{
+    color: #eeeeee;
+}
 
 .section-5 .container{
     background-image: url("./image/INFO-bg1.png");
@@ -11,7 +20,6 @@
     position: relative;
     width:auto;
     max-width:100%;
-    max-height:100%;
     transform-origin: left;
     transform: skewY(6deg);
 }
@@ -87,42 +95,66 @@ ul.dropdown-menu li {
     position: relative;
     background-repeat: repeat;
     width:auto;
-    height:auto;
     max-width:100%;
-    max-height:100%;
 }
 
-.container-feature{
+.container-his{
     background-image: url("./image/INFO-bg1.png");
     background-repeat: repeat;
     position: relative;
     overflow: hidden;
     width:auto;
     max-width:100%;
-    max-height:100%;
     transform-origin: left;
     transform: skewY(6deg);
 }
 
-.container-feature .row {
+.container-his .row {
     transform: skewY(-6deg);
     height: 250px;
 }
-.container-feature .row  h1{
+.container-his .row  h1{
     display: block;
     font-size: 64px;
     color: #eeeeee;
     padding: 50px;
 }
 
+/* section-2 */
 
+.section-2 .row .col-sm-12 > img{
+    max-width:100%;
+    height: auto;
+}
 
+/* .section-2 #ImageMapsCom-image-maps01{
+    display: none;
+}
+.section-2  .col-sm-12 #ImageMapsCom-image-maps01 a:hover{
+    cursor: pointer;
+} */
+
+/* section-3 */
+.section-3 .row .col-sm-12 > img{
+    max-width:100%;
+    height: auto;
+}
+/* .section-3 #ImageMapsCom-image-maps02{
+    display: none;
+} */
+/* section-4 */
+.section-4 .row .col-sm-12 > img{
+    max-width:100%;
+    height: auto;
+}
+/* .section-4 #ImageMapsCom-image-maps03{
+    display: none;
+} */
 .footer-bg{
     background-image:url(/image/INFO-bg1.png);
     background-repeat: repeat;
     position: relative; 
     max-width:100%;
-    max-height:100%;
 }
 
 footer .row{
@@ -130,10 +162,12 @@ footer .row{
     margin-right: 0;
     margin-left: 0;
 }
+
 footer .row .col-xl-6{
     color:#eeeeee;
     font-size: 48px;
 }
+
 #footer-left{
     display: block;
     text-align: right;
@@ -151,6 +185,7 @@ footer li a{
     color: #eeeeee;
     font-size: 28px;
 }
+
 footer hr{
     border: 0;
     height: 1px;
