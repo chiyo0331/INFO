@@ -1,3 +1,4 @@
+
 /*
 * rwdImageMaps jQuery plugin v1.6
 *
@@ -21,7 +22,7 @@
 					$that = $(that);
 
 				// Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
-				$('<img/>').on('load', function() {
+				$('<img />').on('load', function() {
 					var attrW = 'width',
 						attrH = 'height',
 						w = $that.attr(attrW),
@@ -38,7 +39,7 @@
 
 					var wPercent = $that.width()/100,
 						hPercent = $that.height()/100,
-						map = $that.attr('usemap').replace('', ''),
+						map = $that.attr('usemap').replace('#', ''),
 						c = 'coords';
 
 					$('map[name="' + map + '"]').find('area').each(function() {
@@ -65,3 +66,7 @@
 		return this;
 	};
 })(jQuery);
+
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+});
