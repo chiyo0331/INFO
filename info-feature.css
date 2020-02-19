@@ -1,12 +1,16 @@
 * {
-    /* border: 1px solisd rgb(223, 37, 37) !important; */
+    /* border: 1px solid rgb(223, 37, 37) !important; */
     box-sizing: border-box;
     font-family: "Noto Sans TC", "Noto Sans HK", "Solway", "微軟正黑體", "sans-serif";
 }
 
 h1 {
+    color: #eeeeee;
     font-family: 'Noto Sans HK', sans-serif;
-    font-size: 64px;
+    font-size: 56px;
+    font-weight: 450;
+    margin: 20px auto;
+    letter-spacing: 3px;
 }
 
 body {
@@ -16,8 +20,7 @@ body {
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
-
-.section-5 .container {
+#section-5 .container {
     background-image: url("./image/INFO-bg1.png");
     background-repeat: repeat;
     position: relative;
@@ -27,7 +30,7 @@ body {
     transform: skewY(6deg);
 }
 
-.section-5 .row {
+#section-5 .row {
     height: 200px;
 }
 
@@ -98,9 +101,10 @@ ul.dropdown-menu li {
     z-index: 2;
 }
 
+
 /* about */
 
-.section-1 {
+#section-1 {
     background-image: url("./image/INFO-bg1.png");
     position: relative;
     background-repeat: repeat;
@@ -108,7 +112,7 @@ ul.dropdown-menu li {
     max-width: 100%;
 }
 
-.container-feature {
+.container.feature {
     background-image: url("./image/INFO-bg1.png");
     background-repeat: repeat;
     position: relative;
@@ -119,59 +123,55 @@ ul.dropdown-menu li {
     transform: skewY(6deg);
 }
 
-.container-feature .row {
+.container.feature .row {
     transform: skewY(-6deg);
     height: 250px;
 }
 
-.container-feature .row h1 {
-    display: block;
-    font-size: 64px;
-    color: #eeeeee;
-    padding: 50px;
-}
-
-
-/* section-2 */
-.section-2 {
-    margin-top: 200px;
-}
-
-.section-2 .container {
-    margin: 100px auto;
-}
-
-.section-2 .row {
+.container.feature .row h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-2 .row img {
+
+/* section-2 */
+
+#section-2 {
+    margin-top: 180px;
+}
+
+#section-2 .container {
+    margin: 100px auto;
+}
+
+#section-2 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-2 .row img {
     height: auto;
     max-width: 100%;
     box-shadow: 1px 1px 10px 1px;
     border-radius: 30px;
 }
 
-.section-2 .row .col-sm-12 span {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.section-2 .row .col-sm-12 {
+#section-2 .row .col-sm-12 {
     color: #15375a;
-    font-size: 28px;
-    line-height: 1.5;
-    letter-spacing: 5px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 /* .section-3 */
 
-.section-3 .container-fluid-t {
+#section-3 .container-fluid.t {
     background-image: url("./image/INFO-bg1.png");
     background-repeat: repeat;
     position: relative;
@@ -179,15 +179,13 @@ ul.dropdown-menu li {
     max-width: 100%;
     transform-origin: right;
     transform: skewY(-6deg);
-
 }
 
-.section-3 .container {
+#section-3 .container {
     transform: skewY(6deg);
 }
 
-
-.section-3 .row img {
+#section-3 .row img {
     height: auto;
     max-width: 100%;
     box-shadow: 1px 1px 10px 1px;
@@ -198,90 +196,83 @@ ul.dropdown-menu li {
     padding: 80px;
 }
 
-.section-3 .row .col-sm-12 {
+#section-3 .row .col-sm-12 {
     color: #ffffff;
-    font-size: 28px;
-    line-height: 1.5;
-    letter-spacing: 5px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-3 .row .col-sm-12 span {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.section-3 .carousel-inner .carousel-item {
+#section-3 .carousel-inner .carousel-item {
     float: none;
 }
 
+
 /* section-4 */
-.section-4 {
+
+#section-4 {
     margin-top: 150px;
 }
 
-.section-4 #clean {
+#section-4 #clean {
     color: #15375a;
-    font-size: 28px;
-    line-height: 1.5;
-    letter-spacing: 5px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-4 img {
-    max-width: 100%;
+#section-4 img {
+    width: 400px;
     height: auto;
     box-shadow: 1px 1px 10px 1px;
     border-radius: 30px;
 }
 
-.section-4 #carouselExampleControls .carousel-inner {
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 1px;
-
-}
-
-.section-4 #carouselExampleFade .carousel-inner {
+#section-4 #carouselExampleControls .carousel-inner {
     border-radius: 30px;
     box-shadow: 1px 1px 10px 1px;
 }
 
-.section-4 #img-c {
+#section-4 #carouselExampleFade .carousel-inner {
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+#section-4 #img-c {
     padding: 100px;
 }
 
-.section-4 #img-a {
+#section-4 #img-a {
     padding: 100px;
 }
 
-.section-4 #auto {
+#section-4 #auto {
     color: #15375a;
-    font-size: 28px;
-    line-height: 1.5;
-    letter-spacing: 5px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-4 #auto p {
-    line-height: 1.5;
+#section-4 #auto p {
+    font-size: 30px;
+    line-height: 28px;
     letter-spacing: 5px;
     text-align: center;
 }
 
-.section-4 #auto ul {
+#section-4 #auto ul {
     list-style: none;
     padding: 0;
 }
-
-
-
-
 
 #hr-2 {
     border: 0;
@@ -291,11 +282,12 @@ ul.dropdown-menu li {
 
 
 /* footer */
+
 footer {
     color: #eeeeee;
 }
 
-.footer-bg {
+.footer.bg {
     background-image: url(/image/INFO-bg1.png);
     background-repeat: repeat;
     position: relative;
@@ -312,15 +304,15 @@ footer .col-xl-6 {
     height: auto;
 }
 
-footer .row .col-xl-5 {
-    font-size: 30px;
+footer .row #icon-r {
+    font-size: 24px;
     line-height: 2;
     text-align: right;
 }
 
 #footer-left,
 #footer-right {
-    font-size: 48px;
+    font-size: 36px;
     text-align: left;
 }
 
@@ -332,7 +324,6 @@ footer ul {
     text-align: center;
     margin-top: 10px;
     padding: 0;
-
 }
 
 footer li {
@@ -342,12 +333,11 @@ footer li {
 
 footer li a {
     color: #eeeeee;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 footer li a:hover {
     color: rgb(252, 67, 11);
-    font-size: 28px;
     text-decoration: none;
 }
 
@@ -358,17 +348,17 @@ footer hr {
     background-image: linear-gradient(to right, #ccc, rgb(255, 255, 255), #ccc);
 }
 
-.container-fluid-des {
+.container-fluid.des {
     color: #eeeeee;
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
-.container-fluid-des a {
+.container-fluid.des a {
     color: #eeeeee
 }
 
-.container-fluid-des a:hover {
+.container-fluid.des a:hover {
     text-decoration: none;
 }
 
@@ -386,90 +376,78 @@ footer hr {
     .navbar {
         padding: 0;
     }
-
-    .section-2 {
+    #section-2 {
         margin-top: 0;
     }
-
-    .section-2 .row {
+    #section-2 .row {
         flex-direction: column-reverse;
     }
-
-    .section-2 #img-s {
+    #section-2 #img-s {
         margin-bottom: 30px;
     }
-
-    .section-4 #clean {
+    #section-4 #clean {
         flex-direction: column-reverse;
     }
-
-    .section-4 #img-c {
+    #section-4 #img-c {
         padding-bottom: 0;
     }
-
-    .section-4 #auto {
+    #section-4 #auto {
         margin-bottom: 50px;
     }
-
-    .section-4 video {
-        max-width: 80%;
+    #section-4 video {
+        max-width: 70%;
         margin: 50px auto;
         height: auto;
     }
-
     #footer-left,
     #footer-right {
-        font-size: 36px;
-        text-align: center;
-    }
-
-    footer .row .col-xl-5 {
         font-size: 24px;
         text-align: center;
     }
-
+    footer .row #icon-r {
+        font-size: 18px;
+        text-align: center;
+    }
     footer span {
         display: none;
     }
-
-
+    footer li a {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 997px) and (max-width: 1199px) {
-
-    .section-4 #carouselExampleFade.carousel.slide.carousel-fade {
+    #section-4 #carouselExampleFade.carousel.slide.carousel-fade {
         padding: 100px;
     }
-
-    .section-4 #carouselExampleControls.carousel.slide.carousel-fade {
+    #section-4 #carouselExampleControls.carousel.slide.carousel-fade {
         padding: 100px;
     }
-
-    .section-4 video {
+    #section-4 video {
         padding: 100px;
     }
 }
 
-
-
 @media (max-width: 767px) {
-    p {
-        font-size: 28px;
+    h1 {
+        font-size: 48px;
     }
-
-    .section-3 #img-v {
+    #section-3 #img-v {
         padding: 30px;
     }
-
-    .section-4 #img-c {
+    #section-4 #img-c {
         padding: 30px;
         margin-bottom: 30px;
     }
-
-    .section-4 #img-a {
+    #section-4 #img-a {
         padding: 30px;
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
+    #section-5 .row {
+        height: 80px;
+    }
+    footer img {
+        width: 100px;
+    }
 }
